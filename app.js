@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.set("view engine", "ejs");
+app.set("view engine", "jade");
 app.set("views", "app/views");
 
 //app.use(express.static("./app/public"));
